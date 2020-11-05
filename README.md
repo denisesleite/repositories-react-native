@@ -15,7 +15,7 @@ $ git clone https://github.com/denisesleite/repositories-react-native.git
 <strong>Clonar o backend desta aplicação</strong><br/>
 $ git clone https://github.com/denisesleite/routes-repository.git<br/>
 
-OBS: Se você estiver usando emulador para android na sua máquina, execute o comando abaixo no prompt de comando para que reconheça o localhost:
+OBS: Se você estiver usando emulador para android na sua máquina, execute o comando abaixo no prompt de comando para que reconheça o localhost:<br/>
 $ adb reverse tcp:3333 tcp:3333
 
 <strong>Instalar suas dependências, tanto de backend quanto de react native</strong><br/>
