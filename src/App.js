@@ -26,11 +26,7 @@ export default function App() {
 
     //atualizar uma informação de dentro da api
     const repositoriesUpdated = repositories.map(repository => {
-      if(repository.id === id){
-        return likedRepository;
-      }else{
-        return repository;
-      }
+      return repository.id === id ? likedRepository : repository;
     });
 
     setRepositories(repositoriesUpdated);
